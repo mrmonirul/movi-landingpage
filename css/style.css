@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)) ,url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    height: 10%;
+}
+.logo{
+    width: 65px;
+    margin-top: 10px ;
+}
+.header-btn{
+    background-color: #107faD;
+    padding: 7px 20px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 10px;
+}
+.movie-detailes{
+    margin: 3% 0;
+}
+.casting img{
+    height:40px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.left-box a{
+    background-color: #107faD;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 7px 20px;
+    margin-top: 30px;
+}
+.download-btn{
+    background-color: transparent !important;
+    border: 1px solid white;
+}
+.movie-img{
+    height: 340px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+.serise img{
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.serise img:hover{
+    transform: translateY(-12px);
+}
